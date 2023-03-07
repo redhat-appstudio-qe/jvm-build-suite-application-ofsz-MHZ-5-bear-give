@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-vqob
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:e689e4adcded4fbca0a7beb9eb77ad9c
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:71eea4213b1593b2c532cf65bb039dfe9afa5768c2363934e5a81963d17889e7
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

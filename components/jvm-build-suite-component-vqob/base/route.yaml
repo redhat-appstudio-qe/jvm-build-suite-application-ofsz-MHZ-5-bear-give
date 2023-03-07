@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-vqob
     app.kubernetes.io/part-of: jvm-build-suite-application-ofsz
-  name: jvm-build-suite-componentd4na
+  name: jvm-build-suite-componentddmq
   namespace: jvm-build-swvl-tenant
 spec:
   port:
