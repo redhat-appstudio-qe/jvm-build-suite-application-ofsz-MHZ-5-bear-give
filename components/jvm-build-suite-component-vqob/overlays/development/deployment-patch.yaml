@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-vqob
+  namespace: jvm-build-swvl-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:71eea4213b1593b2c532cf65bb039dfe9afa5768c2363934e5a81963d17889e7
+        name: container-image
+        resources: {}
+status: {}
